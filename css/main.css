@@ -290,6 +290,10 @@ ul a.twitter:hover{
   color: #00B0ED;
 }
 
+ul a.linkedin:hover{
+  color: #0077B5;
+}
+
 ul a.github:hover{
   color: #222;
 }
