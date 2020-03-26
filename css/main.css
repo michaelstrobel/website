@@ -114,7 +114,7 @@ img a {
 .container {
   margin: 0 auto 0 auto;
   width: 90%;
-  max-width: 960px;
+  max-width: 580px;
   padding: 120px 0 40px 0;
   text-align: center;
 }
@@ -219,6 +219,35 @@ h1 a:active {
   -webkit-transform: scale(0.9);
    -ms-transform: scale(0.9);
    transform: scale(0.9);
+}
+
+p {
+font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  padding: 26px 0 26px 0;
+  color: #414141;
+  /*line-height: 120%;*/
+   -webkit-animation-duration: 1s;
+   -moz-animation-duration: 1s;
+   -o-animation-duration: 1s;
+   -ms-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-delay: .3s;
+   -moz-animation-delay: .3s;
+   -o-animation-delay: .3s;
+   -ms-animation-delay: .3s;
+   animation-delay: .3s;
+   -webkit-animation-fill-mode: both;
+   -moz-animation-fill-mode: both;
+   -o-animation-fill-mode: both;
+   -ms-animation-fill-mode: both;
+   animation-fill-mode: both;
+   -webkit-animation-name: fadeInUp;
+   -moz-animation-name: fadeInUp;
+   -o-animation-name: fadeInUp;
+   -ms-animation-name: fadeInUp;
+   animation-name: fadeInUp;
 }
 
 a:link {
